@@ -60,18 +60,20 @@ nav ul li a:hover{
 .dropdown{
     width: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: 999;
     display: none;
+    height: 500px;
     
 }
-nav ul li ul.dropdown li{
+.dropdown li{
    
-    display: block;
+    display: flex;
     text-align: center;
 }
 
 nav ul li:hover ul.dropdown{
-    display: inline-block;
+    display: block;
+    margin-top: 20px;
 }
 
 
@@ -102,6 +104,7 @@ img {
     height: 122px;
     left: 522px;
     top: 375px;
+    
 
 }
 
@@ -138,6 +141,7 @@ img {
     height: 354px;
     left: 800px;
     top: 250px;
+   
 
 
 }
